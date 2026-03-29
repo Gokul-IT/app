@@ -1,7 +1,7 @@
 # Django AWS CI/CD Deployment
 
 ## Architecture
-GitHub → AWS CodeDeploy → EC2 → Django App
+GitHub -> Aws Codepipeline -> AWS CodeDeploy -> EC2 -> Django App
 
 ## Features
 - Automated deployment using CodeDeploy
@@ -17,5 +17,6 @@ GitHub → AWS CodeDeploy → EC2 → Django App
 ## Tech Stack
 - AWS EC2
 - CodeDeploy
+- codepipeline
 - Django
 - Bash
