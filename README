@@ -1,0 +1,21 @@
+# Django AWS CI/CD Deployment
+
+## Architecture
+GitHub → AWS CodeDeploy → EC2 → Django App
+
+## Features
+- Automated deployment using CodeDeploy
+- Bash scripts for lifecycle hooks
+- CI/CD integration
+
+## Setup Steps
+1. Launch EC2
+2. Install CodeDeploy agent
+3. Connect GitHub
+4. Deploy application
+
+## Tech Stack
+- AWS EC2
+- CodeDeploy
+- Django
+- Bash
